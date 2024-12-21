@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #101310;
+  background-color: #2b2a28;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,7 +22,7 @@ h1 {
 .analog-clock {
   width: 300px;
   height: 300px;
-  border: 5px solid #6acd8c;
+  border: 5px solid #40ae7a;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -45,7 +45,7 @@ h1 {
 .dash-hour-area .dash {
   width: 15px;
   height: 100%;
-  background-color: #9be6b2;
+  background-color: #40ae7a;
 }
 
 .pointers {
@@ -70,30 +70,30 @@ h1 {
 .pointer-minutes {
   width: 120px;
   height: 7px;
-  background-color: #9be6b2;
+  background-color: #7cfea5;
 }
 .pointer-hours {
   width: 70px;
   height: 10px;
-  background-color: #9be6b2;
+  background-color: #7cfea5;
 }
 .pointer-circle {
   width: 20px;
   height: 20px;
-  background-color: #556057;
+  background-color: #547e63;
   border-radius: 50%;
   position: absolute;
-  margin-top: -20px;
-  margin-left: -10px;
+  margin-top: -5px;
+  margin-left: -5px;
 }
 .digital-clock {
-  color: #6acd8c;
+  color: #7cfea5;
   font-size: 40px;
   margin-top: 20px;
 }
 
 strong {
-  color: #6acd8c;
+  color: #7afaa7;
 }
 
 footer {
